@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CustomViewProject</string>
+
+    <string name="login">登    录</string>
+    <string name="user_name">账号</string>
+    <string name="input_user_name">请输入手机号码</string>
+    <string name="pwd">密码</string>
+    <string name="inputpwd">请输入登录密码</string>
+    <string name="forget_pwd">忘记密码</string>
+</resources>

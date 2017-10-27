@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!" />
+
+    <com.plus.customviewproject.widget.RingView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="20dp"
+        app:firstColor="#00ff00"
+        app:secondColor="#f5e01d"
+        app:speed="30"
+        app:circleWidth="15dp"/>
+
+    <com.plus.customviewproject.widget.CustomVolumeControlBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        app:firstColor="@android:color/holo_red_dark"
+        app:secondColor="@android:color/holo_green_dark"
+        app:circleWidth="20dp"
+        app:dotCount="12"
+        app:spaceCount="3"
+        app:splitSize="20"
+        app:bg="@mipmap/ic_launcher"/>
+
+</LinearLayout>

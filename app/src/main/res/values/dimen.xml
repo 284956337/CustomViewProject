@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray_text_color">#1d1e21</color>
+    <color name="gray_text_color_2">#7f7f7f</color>
+    <color name="gray_text_color_3">#999999</color>
+    <color name="gray_text_color_4">#7a7a7a</color>
+    <color name="gray_text_color_5">#585858</color>
+
+    <!--最大字体-->
+    <dimen name="big_text_size">18sp</dimen>
+    <dimen name="middle_text_size">15sp</dimen>
+    <dimen name="small_text_size">12sp</dimen>
+    <dimen name="min_text_size">10sp</dimen>
+
+    <dimen name="login_image_margin_top">105dp</dimen>
+
+    <dimen name="margin_border">15dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false" >
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners
+                android:topLeftRadius="5sp"
+                android:topRightRadius="5sp"
+                android:bottomLeftRadius="5sp"
+                android:bottomRightRadius="5sp" />
+            <solid
+                android:color="@color/style_btn_color_nor"/><!-- 填充的颜色 -->
+        </shape>
+    </item>
+    <!--按下时的图片背景-->
+    <item android:state_pressed="true">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <corners
+                android:topLeftRadius="5sp"
+                android:topRightRadius="5sp"
+                android:bottomLeftRadius="5sp"
+                android:bottomRightRadius="5sp" />
+            <solid
+                android:color="@color/style_btn_color_pre"/><!-- 填充的颜色 -->
+        </shape>
+    </item>
+
+</selector>
